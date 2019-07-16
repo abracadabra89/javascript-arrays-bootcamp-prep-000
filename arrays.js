@@ -6,8 +6,8 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function addElementToEndOfArray(array, element){
-  array[ array.length ] = element;
-   return array
+  let newArr = array[ array.length ] = element;
+   return newArr
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
