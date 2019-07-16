@@ -6,7 +6,7 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function addElementToEndOfArray(array, element){
-   array = [array, ...element];
+   array = array[ array.length ] = element;
    return array
 }
 
