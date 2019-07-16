@@ -18,4 +18,15 @@ return array;
  function removeElementFromBeginningOfArray(array){
    return array.slice(1);
  }
- function 
+ function destructivelyRemoveElementFromEndOfArray(array){
+   array.pop();
+   return array;
+ }
+  function 
+ array.slice(0, array.length-1);
+   return array;
+ 
+ 
+ 
+ 
+ 
